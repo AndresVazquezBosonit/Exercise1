@@ -38,6 +38,6 @@ public class Person {
   }
 
   public String toString() {
-    return "name: " + name + " City: " + city + " Age: " + age;
+    return "name: " + name + " City: " + city + " Age: " + age.get();
   }
 }
